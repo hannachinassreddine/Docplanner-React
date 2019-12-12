@@ -1,0 +1,75 @@
+.sevices-section{
+    margin: 3.75rem auto 2.5rem;
+    display: flex;
+    justify-content: space-between;
+}
+.withselect{
+    overflow: hidden;
+    box-sizing: border-box;
+    background: #00ccb1 ;
+    min-height: 1px;
+    padding: 22px 40px 0;
+    width: 48%;
+    height: 392px;
+    border-radius: 10px;
+}
+.noselect{
+    overflow: hidden;
+    width: 48%;
+    box-sizing: border-box;
+    background: #3d83df;
+    height: 392px;
+    min-height: 1px;
+    padding: 22px 40px 0;
+    border-radius: 10px;
+}
+.sevices-section>div>h2{
+    font-size: .875em;
+    font-weight: 400;
+    margin: 0;
+    color: hsla(0,0%,100%,.7);
+}
+.sevices-section>div>h1{
+    font-size: 1.625em;
+    color: #fff;
+    margin-top: .3em;
+}
+.withselect>div>img{
+    width: 100%;
+    margin-left: 40%;
+    margin-top: -2.3em;
+}
+.select-country-option{
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    outline: 0;
+    border: 0;
+    border-radius: 4px;
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    color: #333;
+    background: #fff;
+    font-weight: 600;
+    letter-spacing: .04em;
+    font-size: .75rem;
+    text-align: center;
+    text-decoration: none!important;
+    transition: all .2s ease 0s;
+    cursor: pointer;
+}
+.select-country-option>select{
+    width: 100%;
+    background: transparent;
+    border: 0;
+    border-radius: 0;
+    padding: 0 1.5em 0 1.5em;
+    height: 40px;
+    -webkit-appearance: none;
+    text-transform: uppercase;
+    outline: 0;
+}
+.noselect>div>img{
+    width: 100%;
+    margin-left: 40%;
+    margin-top: -1.3em;
+}

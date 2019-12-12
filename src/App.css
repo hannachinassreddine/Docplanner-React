@@ -1,0 +1,19 @@
+.App{
+  font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+color:
+#747474;
+}
+.inner-style{
+  display: flex;
+  justify-content: space-between;
+  max-width: 1015px;
+  padding: 0 20px;
+  margin: 0 auto;
+  position: relative;
+}
+.logo-docplanner {
+  
+  height: 33px;
+  display: block;
+    margin: 0 auto;
+}

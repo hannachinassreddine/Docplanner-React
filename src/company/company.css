@@ -1,0 +1,34 @@
+.about-company{
+    margin: 3.75rem auto 2.5rem !important;
+    display: flex !important;
+}
+.brands__logos {
+    /* float: left; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-size: 0;
+    width: 70%;
+    list-style: none;
+}
+.about-company>h1 {
+    float: left;
+    width: 30%;
+    font-size: 1.625em;
+    margin: .25em 0 .35em;
+    padding-right: 1em;
+    color: #00b39b;
+}
+.brands__logos>li>a {
+    display: inline-block;
+    padding: 5px 5px;
+}
+.brands__logos>li>a>svg {
+    height: 20px;
+    width: 145px;
+    fill: #747474;
+    /* border: 5px solid red; */
+}
+.brands__logos>li>a>svg:hover{
+    fill: #00b39b;
+}

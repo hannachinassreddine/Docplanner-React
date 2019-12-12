@@ -1,0 +1,24 @@
+.lead-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    margin-top: 170px !important;
+    
+}
+.lead-text-section{
+    display: flex;
+    margin: 0 -10px;
+    justify-content: space-between;
+    
+}
+.lead-text>p{
+    margin: .8em 0;
+    line-height: 1.75;
+    font-weight: 400;
+}
+
+.lead-text{
+    padding: 10px;
+    width: 48%;
+}

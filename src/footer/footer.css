@@ -1,0 +1,23 @@
+.main-footer{
+    border-top: 1px solid #eef2f2;
+    font-size: .75em;
+    color: #ababab;
+    text-align: center;
+    padding: 1em 0;
+    /* display: flex;
+    flex-direction: column !important; */
+}
+.main-footer>.inners-style>p{
+    margin-bottom: .4em;
+}
+.main-footer>.inners-style>p>a{
+    text-decoration: none;
+    color: #3d83df;
+}
+.inners-style{
+   
+    max-width: 1015px;
+    padding: 0 20px;
+    margin: 0 auto;
+    position: relative;
+  }
